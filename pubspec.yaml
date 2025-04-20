@@ -1,0 +1,24 @@
+name: zeromachine
+description: A simple calculator app with a blue theme.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.0.0  # Voor het evalueren van wiskundige expressies
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/  # Voeg je logo of andere afbeeldingen toe in de assets map
